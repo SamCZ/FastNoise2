@@ -472,7 +472,7 @@ FastNoiseNodeEditor::FastNoiseNodeEditor() :
 
     ImNodes::GetStyle().MiniMapPadding = ImVec2( 8, 8 );
 
-#ifdef _DEBUG
+#ifndef NDEBUG
     mNodeBenchmarkMax = 1;
 #endif
     
